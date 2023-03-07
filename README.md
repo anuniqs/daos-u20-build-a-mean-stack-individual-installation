@@ -97,3 +97,63 @@ https://github.com/nodesource/distributions/blob/master/README.md#debinstall
 <br>
 
 http://192.168.56.128:3000/
+
+<br>
+<br>
+<br>
+
+### Express.js,
+
+https://expressjs.com/
+
+`anup@u22-128-YT-MACHINE:~$ sudo npm install -g express`
+
+`anup@u22-128-YT-MACHINE:~$ sudo npm install -g npm@9.2.0`
+
+<br>
+
+`anup@u22-128-YT-MACHINE:~$ sudo npm view express version`
+
+<br>
+
+`anup@u22-128-YT-MACHINE:~$ mkdir myproject`
+
+`anup@u22-128-YT-MACHINE:~$ cd myproject`
+
+`anup@u22-128-YT-MACHINE:~/myproject$ npm init -y`
+
+`anup@u22-128-YT-MACHINE:~/myproject$ npm install express`
+
+<br>
+
+`anup@u22-128-YT-MACHINE:~/myproject$ sudo nano app.js`
+
+
+    const express = require('express')
+    
+    const app = express()
+    
+    const port = 3001
+    
+    
+    
+    app.get('/', (req, res) => {
+    
+        res.send('Hello There!')
+    
+    })
+    
+    
+    
+    app.listen(port, () => {
+    
+        console.log(`Example app listening at http://localhost:${port}`)
+    
+    })
+
+
+`anup@u22-128-YT-MACHINE:~/myproject$ node app.js`
+
+http://192.168.56.128:3001/
+
+http://localhost:3001
