@@ -157,3 +157,21 @@ https://expressjs.com/
 http://192.168.56.128:3001/
 
 http://localhost:3001
+
+<br>
+<br>
+<br>
+
+### AngularJS,
+
+`anup@u22-128-YT-MACHINE:~$ sudo npm install -g @angular/cli`
+
+`anup@u22-128-YT-MACHINE:~$ ng version | ng v `
+
+`anup@u22-128-YT-MACHINE:~$ ng new angular-tour-of-heroes`
+
+`anup@u22-128-YT-MACHINE:~$ cd angular-tour-of-heroes/`
+
+`anup@u22-128-YT-MACHINE:~/angular-tour-of-heroes$ ng serve --open`
+
+http://localhost:4200
