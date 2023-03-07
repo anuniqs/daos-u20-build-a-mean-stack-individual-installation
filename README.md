@@ -42,3 +42,58 @@ https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-ubuntu/
 
 `anup@u22-128-YT-MACHINE:~$ mongosh`
 
+<br>
+<br>
+<br>
+
+### Node.js,
+
+https://github.com/nodesource/distributions/blob/master/README.md#debinstall
+
+`anup@u22-128-YT-MACHINE:~$ sudo apt-get install curl`
+
+<br>
+
+`anup@u22-128-YT-MACHINE:~$ curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash -`
+
+`anup@u22-128-YT-MACHINE:~$ sudo apt-get install -y nodejs`
+
+<br>
+
+`anup@u22-128-YT-MACHINE:~$ node --version`
+
+`anup@u22-128-YT-MACHINE:~$ npm --version`
+
+`anup@u22-128-YT-MACHINE:~$ npx --version`
+
+<br>
+
+`anup@u22-128-YT-MACHINE:~$ sudo npm install -g express-generator`
+
+`anup@u22-128-YT-MACHINE:~$ express --version`
+
+<br>
+
+`anup@u22-128-YT-MACHINE:~$ express --view=pug myapp`
+
+`anup@u22-128-YT-MACHINE:~$ cd myapp/`
+
+`anup@u22-128-YT-MACHINE:~/myapp$ npm install`
+
+`anup@u22-128-YT-MACHINE:~/myapp$ ls -ltr`
+
+`anup@u22-128-YT-MACHINE:~/myapp$ sudo apt-get install tree`
+
+`anup@u22-128-YT-MACHINE:~/myapp$ tree`
+
+<br>
+
+`anup@u22-128-YT-MACHINE:~/myapp/bin$ cat www `
+
+<br>
+
+`anup@u22-128-YT-MACHINE:~/myapp$ DEBUG=myapp:* npm start`
+
+<br>
+
+http://192.168.56.128:3000/
