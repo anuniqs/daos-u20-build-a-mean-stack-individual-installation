@@ -44,7 +44,6 @@ https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-ubuntu/
 
 <br>
 <br>
-<br>
 
 ### Node.js,
 
@@ -98,7 +97,6 @@ https://github.com/nodesource/distributions/blob/master/README.md#debinstall
 
 http://192.168.56.128:3000/
 
-<br>
 <br>
 <br>
 
@@ -158,7 +156,6 @@ http://192.168.56.128:3001/
 
 http://localhost:3001
 
-<br>
 <br>
 <br>
 
